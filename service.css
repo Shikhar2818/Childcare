@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .nav-links li {
+    margin-left: 20px;
+}
+
+.navbar .nav-links li a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 16px;
+    transition: background-color 0.3s;
+}
+
+.navbar .nav-links li a:hover {
+    background-color: #575757;
+}
+
+.content {
+    padding: 20px;
+    margin-top: 60px; /* Space for the sticky navbar */
+    height: 100%;
+    width: 100%;
+}
+
+.section {
+    padding: 20px;
+    margin-bottom: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+.white-background {
+    background-color: white;
+    width: 100%;
+}
+
+.cream-background {
+    background-color: #f9e8d8; /* Light cream color */
+    width: 100%;
+}
+
+footer {
+    background-color: #333; /* Dark background for footer */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer blockquote {
+    margin: 0;
+    font-style: italic;
+}
